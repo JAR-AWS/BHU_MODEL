@@ -22,6 +22,7 @@ Steps to run:
 
 Castro outputs in boxlib format, which is not easy to read with the usual tools (especially the 1D datasets cannot be plotted with AmrVis, visit, ParaView
 and other plotting tools). So, we use a tool called yt to read the files and plot the data. We have provided a Jupyter notebook that you can use to visualize the data using yt. You will first need to install yt in your Python environment. Refer to the following guide for installation:
+
 https://yt-project.org/doc/installing.html
 
 Now, you are all set to run cool simulations of the cold collapse of massive, spherically symmetric and homogenous cold clouds (Newtonian) and compare the results with the GR version of the same.
