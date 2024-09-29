@@ -1,15 +1,15 @@
 There is an implementation of the Homologous Dust Collapse, a 'pressure-less'
-configuration that collapses under its own gravity, as a test problem in CASTRO code.  
+configuration that collapses under its own gravity as a test problem in the CASTRO code.  
 The test problem uses an analytic solution that describes the radius of the sphere as a 
 function of time, as found in Colgate and White (1966).  This problem is also found in
 the FLASH User's Guide and Mönchmeyer and Müller (1989).
 
-We have modified this test problem by adding an infall velocity which then gives us an
+We have modified this test problem by adding an infall velocity, which then gives us an
 exact GR solution to the problem for k=0 (flat space) with zero pressure.
 
 A low-density, rho_0, is placed inside a sphere of radius r_0.  The
 pressure should be negligible, formally, $p_0 << 4 \pi G rho_0^2 r_0^2 / \gamma$ (see Flash Users Guide). 
-It is not clear what value of p_0 different papers use so we use $p_0 = 1e10$ << $p_0 = 1e19$ that
+It is not clear what value of p_0 different papers use, so we use $p_0 = 1e10$ << $p_0 = 1e19$ that
 comes from the RHS of the inequality above.
 
 We simulate the collapse starting from 100 times the gravitational radius and evolve until t = tc (collapse time).
