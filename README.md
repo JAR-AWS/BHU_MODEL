@@ -2,7 +2,7 @@ To run the simulations, you will first need to download and install Castro by fo
 
 Don't forget to add the home directory to your path using the following command.
 
-   ```export CASTRO_HOME="/path/to/Castro/"```
+      export CASTRO_HOME="/path/to/Castro/"
 
 Note: You must export the path to "CASTRO_HOME" and not a different name unless you want to modify the name in the makefile.
 
