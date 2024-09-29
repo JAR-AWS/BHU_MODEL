@@ -36,7 +36,7 @@ Additional notes: Simulations of bounce using a polytropic equation of state
 Polytropic equations of state ($P = K \rho^\gamma$) are a good approximation to model neutron stars with only 2 parameters. We use this with values of gamma ranging from $\gamma$ = 2 to 3 to model our cloud reaching neutron degeneracy and bouncing back.
 
 To use the polytropic equation of state:
-1. Set "EOS_DIR:=polytrope" in GNUmakefile which sets the EOS directory in $(MICROPHYSICS_HOME)/EOS.
+1. Set "EOS_DIR := polytrope" in GNUmakefile which sets the EOS directory in $(MICROPHYSICS_HOME)/EOS.
 2. At the bottom of the "inputs_1d" file, add the following:
 
    eos.polytrope_gamma = 2.5
