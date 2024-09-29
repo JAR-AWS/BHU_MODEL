@@ -10,7 +10,7 @@ $$\rho_0 = 2.8e8\ g/cm^3$$
  
 $$r_0 = 2.39e8\ cm$$
  
-$$u_0 = -2.99e9\ cm/s$$ (which is $0.1c$)
+$$u_0 = -2.99e9\ cm/s\ (\text{which is } 0.1c)$$
 	
 We find that the simulation results follow exactly the theoretical GR solution until Black Hole formation, which is marked by
 the radius crossing the gravitational radius and the coordinate velocity crossing the speed of light.
