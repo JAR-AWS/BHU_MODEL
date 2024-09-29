@@ -27,3 +27,19 @@ You will first need to install yt in your Python environment. Refer to the follo
 https://yt-project.org/doc/installing.html
 
 Now, you are all set to run cool simulations of the cold collapse of massive, spherically symmetric and homogenous cold clouds (Newtonian) and compare the results with the GR version of the same.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Additional notes: Simulations of bounce using a polytropic equation of state
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Polytropic equations of state (P = K * rho^gamma) are a good approximation to model neutron stars with only 2 parameters. We use this with values of gamma ranging from gamma = 2 to 3 to model our cloud reaching neutron degeneracy and bouncing back.
+
+To use the polytropic equation of state:
+1. Set "EOS_DIR:=polytrope" in GNUmakefile which sets the EOS directory in $(MICROPHYSICS_HOME)/EOS.
+2. At the bottom of the "inputs_1d" file, add the following:
+   eos.polytrope_gamma = 2.5
+   eos.polytrope_K = 1e-2
+
+   Note that these values are just given as an example and can be changed as suitable.
+3. Follow the steps 2 to 6 in the "steps to run".
