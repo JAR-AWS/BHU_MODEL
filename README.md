@@ -38,8 +38,10 @@ Polytropic equations of state (P = K * rho^gamma) are a good approximation to mo
 To use the polytropic equation of state:
 1. Set "EOS_DIR:=polytrope" in GNUmakefile which sets the EOS directory in $(MICROPHYSICS_HOME)/EOS.
 2. At the bottom of the "inputs_1d" file, add the following:
+
    eos.polytrope_gamma = 2.5
+   
    eos.polytrope_K = 1e-2
 
    Note that these values are just given as an example and can be changed as suitable.
-3. Follow the steps 2 to 6 in the "steps to run".
+4. Follow the steps 2 to 6 in the "steps to run".
